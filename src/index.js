@@ -46,9 +46,18 @@ const { SearchGroups } = require("./utils/search");
   const newSession = client.session.save();
   if (typeof newSession === "string") {
     await fs.writeFile(SESSION_FILE, newSession);
-    console.log(`✅ Session saved. Logged in as: ${client.user?.firstName}`);
+    console.log(
+      `✅ Session saved. Logged in as: ${(await client.getMe()).username}`
+    );
   } else {
     console.error("❌ Failed to save session.");
+  }
+  try {
+    await client.sendMessage(TARGET_CHANNEL, {
+      message: "start",
+    });
+  } catch (e) {
+    console.error(e);
   }
 
   await SearchGroups(client, keywords, Api);

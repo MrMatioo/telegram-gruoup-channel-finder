@@ -1,0 +1,22 @@
+{
+  "name": "groupsss",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "input": "^1.0.1",
+    "mongoose": "^9.0.0",
+    "telegram": "^2.26.22"
+  }
+}

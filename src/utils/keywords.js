@@ -1,0 +1,26 @@
+const keywords = [
+  "گروه فامیلی",
+  "گروه قدیمی",
+  "سیگنال دهی",
+  "Investment",
+  "کریپتوکارنسی",
+  "Analysis",
+  "سرمایه گذاری",
+  "Blockchain",
+  "معاملات روزانه",
+  "Trading",
+  "تحلیل تکنیکال",
+  "Technical",
+  "دانشجو",
+  "Learning",
+  "فروشگاه",
+  "Marketing",
+  "گردشگری",
+  "Lifestyle",
+  "تهرانگردی",
+  "Football",
+  "موفقیت",
+  "Business",
+];
+
+module.exports = keywords;

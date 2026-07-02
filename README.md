@@ -63,8 +63,6 @@ Note: You can obtain your Telegram API credentials from my.telegram.org.
    npm run dev
    ```
 
-````
-
 The server will start on http://localhost:3000.
 
 ---
@@ -75,7 +73,7 @@ Search Endpoint:
 
 ```http
 GET /api/search?q={keyword}
-````
+```
 
 Example Request | نمونه درخواست:
 

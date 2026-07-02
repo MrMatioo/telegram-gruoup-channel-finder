@@ -32,35 +32,37 @@ An intelligent, fast, and secure TypeScript REST API to search for Telegram chan
 1. Clone the repository | کلون کردن پروژه
 
 ```bash
-git clone https://github.com/MrMatioo/telegram-gruoup-channel-finder.git
-cd telegram-gruoup-channel-finder
+git clone https://https://github.com/MrMatioo/Telegram-Finder-API.git
+cd Telegram-Finder-API
 ```
 
 2. Install dependencies | نصب وابستگی‌ها
+
    ```bash
    npm install
    ```
 
-````
-
 3. Configure environment variables | تنظیم متغیرهای محیطی
    Create a .env file in the root directory with the following variables:
    ```env
-PORT=3000
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_NAME=telegram_finder
-TELEGRAM_API_ID=your_api_id
-TELEGRAM_API_HASH=your_api_hash
-TELEGRAM_SESSION=your_session_string
-```
+   PORT=3000
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_USER=postgres
+   DB_PASSWORD=your_password
+   DB_NAME=telegram_finder
+   TELEGRAM_API_ID=your_api_id
+   TELEGRAM_API_HASH=your_api_hash
+   TELEGRAM_SESSION=your_session_string
+   ```
+
 Note: You can obtain your Telegram API credentials from my.telegram.org.
 
 4. Run the application | اجرای برنامه
    ```bash
-npm run dev
+   npm run dev
+   ```
+
 ````
 
 The server will start on http://localhost:3000.
@@ -73,7 +75,7 @@ Search Endpoint:
 
 ```http
 GET /api/search?q={keyword}
-```
+````
 
 Example Request | نمونه درخواست:
 
@@ -131,7 +133,3 @@ MrMatioo — GitHub
 ## ⭐ Support
 
 If you find this project useful, please consider giving it a star on GitHub!
-
-```
-
-```
